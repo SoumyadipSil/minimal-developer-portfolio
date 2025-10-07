@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soumyadip Sil – Portfolio</title>
+  <meta name="description" content="Portfolio of Soumyadip Sil – Developer • ECE Undergrad • Projects, Skills, Resume & Contact." />
+  <meta property="og:title" content="Soumyadip Sil – Portfolio" />
+  <meta property="og:description" content="Projects, skills, resume and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/favicon.png" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#home" class="logo">Soumyadip<span class="grad">•Sil</span></a>
+      <nav>
+        <ul>
+          <li><a class="link" href="#projects">Projects</a></li>
+          <li><a class="link" href="#skills">Skills</a></li>
+          <li><a class="link" href="#about">About</a></li>
+          <li><a class="link" href="#contact">Contact</a></li>
+          <li><a class="link" href="#resume">Resume</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="thumb"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">ECE Undergrad • Developer • Kolkata, India</span>
+          <h1 class="title">Hi, I’m <span class="grad">Soumyadip Sil</span>.<br/>I love creating websites and apps that are simple, fast, and easy to use.</h1>
+          <p class="subtitle">4th-year B.Tech (ECE). Interested in C++, DSA, Web Development, AI, and building useful tools. I love making simple and useful projects.</p>
+          <div class="cta">
+            <a href="#projects" class="btn primary">See Projects</a>
+            <a href="#contact" class="btn ghost">Hire Me</a>
+          </div>
+          <div class="mt-16">
+            <p class="lead">Open to internships • Freelance website/app work • Collabs</p>
+          </div>
+        </div>
+        <div class="pfp" aria-label="profile">
+          <!-- Replace the image src below with your photo (square works best) -->
+          <img src="https://avatars.githubusercontent.com/u/203132451?v=4" alt="Profile placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="lead">Some of my projects.</p>
+        </div>
+        <div class="grid">
+          <article class="card project col-6">
+            <div class="thumb">
+              <img src="public/project-portfolio.png" alt="Minimal Portfolio Template Thumbnail" />
+            </div>
+            <div>
+              <h3>Minimal Portfolio Website</h3>
+              <p>A fast, single-file portfolio template using vanilla HTML/CSS/JS with dark mode and responsive layout.</p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+              </div>
+              <div class="btn-row">
+                <a class="btn ghost" href="https://your-portfolio-live-url.com" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="btn ghost" href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project col-6">
+            <div class="thumb">
+              <img src="public/project-summarizer.png" alt="Smart Notes Summarizer Thumbnail" />
+            </div>
+            <div>
+              <h3>Smart Notes Summarizer</h3>
+              <p>Summarizes class notes into flashcards.</p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Flask</span>
+              </div>
+              <div class="btn-row">
+                <a class="btn ghost" href="https://your-summarizer-live-url.com" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="btn ghost" href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project col-6">
+            <div class="thumb">
+              <img src="public/project-coursehub.png" alt="CourseHub Thumbnail" />
+            </div>
+            <div>
+              <h3>CourseHub</h3>
+              <p>Clean dashboard for tracking semester courses, assignments, and deadlines.</p>
+              <div class="tags">
+                <span class="tag">React</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+              </div>
+              <div class="btn-row">
+                <a class="btn ghost" href="https://your-coursehub-live-url.com" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="btn ghost" href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project col-6">
+            <div class="thumb">
+              <img src="public/project-todo.png" alt="To-Do App Thumbnail" />
+            </div>
+            <div>
+              <h3>To-Do App</h3>
+              <p>A simple and clean To-Do list application built with HTML, CSS, and JavaScript.</p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+              </div>
+              <div class="btn-row">
+                <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                <a class="btn ghost" href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </article>
+          </div>
+        <div class="view-more-container">
+          <a href="https://github.com/SoumyadipSil" class="btn primary" target="_blank" rel="noreferrer">
+            View More on GitHub
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="lead">Core tools & technologies.</p>
+        </div>
+        <div class="skills">
+          <div class="skill">C++</div>
+          <div class="skill">DSA</div>
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">Java</div>
+          <div class="skill">MySQL</div>
+          <div class="skill">Git & GitHub</div>
+          <div class="skill">Python</div>
+          <div class="skill">React</div>
+          <div class="skill">Express</div>
+          <div class="skill">MongoDB</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About Me</h2>
+          <p class="lead"></p>
+        </div>
+        <article class="card">
+          <p>I’m a final-year ECE student (B.Tech, graduating 2026) who enjoys building Software, simple backends, and tiny tools that help people. Currently exploring performance in React and sharpening problem-solving with DSA in C++.</p>
+          <div class="about-list">
+            <span class="pill">📍 Kolkata, India</span>
+            <span class="pill">🎓 ECE • 4th Year</span>
+            <span class="pill">💼 Looking for Internships & Jobs</span>
+            <span class="pill">🛠️ Web Dev</span>
+            <span class="pill">🛠️ AI Agents & Automation</span>
+            <span class="pill">🎮 Gaming + Tech</span>
+            <span class="pill">🧪 Side Projects Every Month</span>
+          </div>
+        </article>
+
+        <div class="grid mt-16">
+          <div class="card col-8">
+            <h3>Experience & Highlights</h3>
+            <div class="timeline mt-12">
+              <div class="t-item">
+                <strong>Open-source contributions</strong> — small fixes, docs, and issues across GitHub orgs.
+              </div>
+              <div class="t-item">
+                <strong>AI & ML Intern IBM Skillsbuild</strong> — AI ML project based on Python.
+              </div>
+              <div class="t-item">
+                <strong>Hackathon Project</strong> — Finished Top 5 in Grand Hackathon 2024.
+              </div>
+            </div>
+          </div>
+          <div class="card col-4">
+            <h3>Contact Info</h3>
+            <div class="mt-12">
+              <div class="email-copy-container">
+                <span>Email: <a href="mailto:soumyadipsil602@gmail.com" id="emailAddress">soumyadipsil602@gmail.com</a></span>
+                <button id="copyEmailBtn" class="btn-copy" title="Copy email address">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6ZM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1H2Z"/></svg>
+                </button>
+              </div>
+              <p>GitHub: <a href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">@SoumyadipSil</a></p>
+              <p>LinkedIn: <a href="https://linkedin.com/in/soumyadip-sil" target="_blank" rel="noreferrer">/in/soumyadip-sil</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+      <div class="container">
+        <div class="section-head">
+          <h2>Resume</h2>
+          <p class="lead">Latest resume(PDF).</p>
+        </div>
+        <article class="card">
+          <p>Download my latest resume below or email me and I’ll send it right away.</p>
+          <a class="btn primary" href="./Soumyadip_Sil_Resume.pdf" download>⬇ Download Resume</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="lead">Get in touch.</p>
+        </div>
+        <div class="grid">
+          <article class="card col-8">
+            <!-- Replace YOUR_ACCESS_KEY_HERE with your key from web3forms.com -->
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+              <div class="form-row">
+                <input name="name" placeholder="Your name" required />
+                <input type="email" name="email" placeholder="your email" required />
+              </div>
+              <input name="subject" placeholder="Subject" />
+              <textarea name="message" placeholder="Your message" required></textarea>
+              <button class="btn primary" type="submit">Send Message</button>
+              <p id="formStatus" class="lead"></p>
+            </form>
+          </article>
+          <aside class="card col-4">
+            <h3>Socials</h3>
+            <ul>
+              <li><a href="https://github.com/SoumyadipSil" target="_blank" rel="noreferrer">GitHub 🤖</a></li>
+              <li><a href="https://linkedin.com/in/soumyadip-sil" target="_blank" rel="noreferrer">LinkedIn [in]</a></li>
+              <li><a href="mailto:soumyadipsil602@gmail.com">Email 📧</a></li>
+              <li><a href="https://twitter.com/SoumyadipSil" target="_blank" rel="noreferrer">Twitter 𝕏</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> Soumyadip Sil. Built with ❤︎ & 🪲 using vanilla HTML/CSS/JS. <a href="#home">Back to top ↑</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
