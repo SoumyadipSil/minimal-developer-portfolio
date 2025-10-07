@@ -44,7 +44,5 @@ The project structure is simple and straightforward:
     ```
 2.  Open `index.html` in your browser.
 
-## License
 
-This project is open-source and available under the **MIT License**.
 
