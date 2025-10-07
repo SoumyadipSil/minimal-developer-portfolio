@@ -44,5 +44,8 @@ The project structure is simple and straightforward:
     ```
 2.  Open `index.html` in your browser.
 
+## Update
 
+project will be updated in future with more ideas and implementation, 
+  Stay Tuned & Happy Coding
 
