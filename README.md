@@ -12,9 +12,6 @@ This repository contains the source code for my personal portfolio, built from s
 
 My goal was to create a portfolio that is lightweight, fast, and easy to maintain. I focused on a few key principles:
 
-* **Simplicity:** Built with vanilla technologies to be lightweight and have zero dependencies. No frameworks, no build steps.
-* **Clean Design:** A minimalist, single-page layout that focuses on content without distractions.
-* **User Experience:** Includes a dark/light theme toggle that respects and saves user preference, along with other small UX details for a better browsing experience.
 
 ## Tech Stack
 
@@ -32,7 +29,7 @@ The project structure is simple and straightforward:
 ├── 📜 script.js                 # All JavaScript functionality
 ├── 🖼️ public/                    # Folder for assets like images
 │   └── project-portfolio.png
-├── 📄 Soumyadip_Sil_Resume.pdf    # resume file
+├── 📄 Resume.pdf                # resume file
 └── 📖 README.md
 ```
 
